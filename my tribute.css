@@ -1,0 +1,31 @@
+body{
+    background-color:green;
+    text-align: center;
+    color: white;
+    padding: 0 auto;
+}
+#main{
+    align-items: center;
+}
+#img-caption{
+    font: 1em sans-serif;
+}
+#image{
+    max-width: 300px;
+    border-left: 50px;
+}
+.one{
+    margin: 40px 400px;
+    padding: auto;
+}
+.two{
+    margin: 40px 400px;
+    padding: auto;
+    margin-top: auto;
+}
+caption,a{
+    background-color: brown;
+}
+.felix{
+    text-align: right;
+}

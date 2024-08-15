@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="my survey form.css">
+        <title>my survey form</title>
+    </head>
+    <body>
+        <main>
+         <h1 class="form-tittle">my survey form</h1>
+            <form>
+                <fieldset>
+                <legend>participant information</legend>
+                <label>full name:<input type="text" required></label>
+                <label>email:<input type="email"required></label>
+                <label>number:<input type="number"maxlength="11" minlength="0"required></label>
+                <label>password:<input type="password"min="0"max="8"required></label>
+                <label>AGE:<input type="number"max="50"min="13"required></label>
+                <legend>which option best describe your current role?</legend>
+                <select id="dropdown">
+                    <option>student</option>
+                    <option>teacher</option>
+                </select>
+                <section>
+                <legend> will you select felix as your friend</legend>
+                <label>definately<input type="radio"></label>
+                <label>may be<input type="radio"></label>
+                <label>may be <input type="radio"></label>
+                <legend>wht your favourite feature</legend>
+                <select input type="dropdown">
+                    <option value="frontend">frontend</option>
+                    <option value="backend">backend</option>
+                </select>
+                <legend>what will your like to improve? (after all that apply)
+                    <label><input type="checkbox"></label>
+                    <label><input type="checkbox"></label>                
+                <legend>any comment or suggestion</legend>
+                <textarea cols="50" row="4">enter your comment/suggestion here</textarea>
+                </fieldset>
+            </form>
+            <input type="submit" value="SUBMIT">
+        </main>
+    </body>
+</html>
